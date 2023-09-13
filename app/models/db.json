@@ -1,0 +1,60 @@
+{
+  "people": [
+    {
+      "id": "3b81261f-9141-4cd4-8040-ec2b77ea65cd",
+      "name": "Nina",
+      "title": "Investor Configuration Executive",
+      "email": "Graciela88@gmail.com",
+      "role": "Analyst",
+      "date": "2023-01-30T03:07:53.293Z"
+    },
+    {
+      "id": "7573335c-992e-4f1e-94ac-257eb5cad0cb",
+      "name": "Cecelia",
+      "title": "Legacy Security Manager",
+      "email": "Kris60@hotmail.cat",
+      "role": "Architect",
+      "date": "2023-07-17T16:29:52.709Z"
+    },
+    {
+      "id": "03f7e7cf-b8e6-4718-b602-b8d1cd15a1dd",
+      "name": "Angel",
+      "title": "Forward Metrics Developer",
+      "email": "Hillary.Marquardt11@hotmail.com",
+      "role": "Coordinator",
+      "date": "2023-03-12T23:44:03.074Z"
+    },
+    {
+      "id": "7fa16a06-4e8a-43c2-bf30-bac713ac5814",
+      "name": "Bridget Schneider II",
+      "title": "Global Infrastructure Specialist",
+      "email": "Jerel.Dibbert25@hotmail.com",
+      "role": "Assistant",
+      "date": "2022-11-05T05:41:09.327Z"
+    },
+    {
+      "id": "8a947d45-988e-44e2-a4c5-1f5ced7bbecd",
+      "name": "Derrick ",
+      "title": "Human Assurance Planner",
+      "email": "Dillan.Welch@gmail.com",
+      "role": "Representative",
+      "date": "2022-10-13T06:41:46.371Z"
+    },
+    {
+      "id": "5824256d-d1c8-404d-942a-66120e551cdc",
+      "name": "Pamela O'Hara",
+      "title": "Global Web Planner",
+      "email": "Fritz_Kozey@yahoo.com",
+      "role": "Architect",
+      "date": "2023-08-31T02:22:20.486Z"
+    },
+    {
+      "id": "a4159773-781c-4845-a5ad-8a3df227b016",
+      "name": "Carl Strosin",
+      "title": "Investor Group Consultant",
+      "email": "Jaron_Krajcik6@yahoo.com",
+      "role": "Agent",
+      "date": "2022-12-05T14:36:30.634Z"
+    }
+  ]
+}

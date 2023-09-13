@@ -1,0 +1,45 @@
+{
+  "name": "enhance-app",
+  "version": "0.0.1",
+  "scripts": {
+    "start": "concurrently --kill-others \"npx tailwindcss -i ./app/app.css -o ./public/app.css --watch\" \"npx enhance dev\"",
+    "debug": "npx enhance dev --debug=true --inspect-brk=5858",
+    "lint": "eslint ./app/**/*.mjs --fix",
+    "enhance": "enhance",
+    "test": "vitest"
+  },
+  "devDependencies": {
+    "@enhance/cli": "latest",
+    "@enhance/types": "^0.6.0",
+    "@faker-js/faker": "^8.0.2",
+    "babel-eslint": "^10.1.0",
+    "concurrently": "^8.2.1",
+    "eslint": "^8.30.0",
+    "tailwindcss": "^3.3.3",
+    "vitest": "^0.34.4"
+  },
+  "eslintConfig": {
+    "env": {
+      "node": true
+    },
+    "extends": "eslint:recommended",
+    "rules": {
+      "indent": [
+        "error",
+        2
+      ]
+    },
+    "ignorePatterns": [],
+    "parserOptions": {
+      "sourceType": "module",
+      "ecmaVersion": 2022
+    }
+  },
+  "dependencies": {
+    "@enhance/arc-plugin-enhance": "^6.2.2",
+    "@enhance/styles-cribsheet": "^0.0.9",
+    "lodash": "^4.17.21",
+    "lowdb": "^6.0.1",
+    "zod": "^3.22.2"
+  }
+}
